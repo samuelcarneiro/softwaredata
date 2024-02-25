@@ -21,7 +21,7 @@ section {
 h2 {
     font-size: 3em;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 h3 {
@@ -37,7 +37,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 10px; */
+    padding-top: 1em;
 }
 
 nav .logo {
@@ -55,7 +55,7 @@ nav ul {
 
 nav ul li a {
     font-size: 1em;
-    color: #fff;
+    color: #000;
     display: block;
     padding: 5px 10px;
     text-transform: uppercase;
@@ -89,7 +89,7 @@ nav ul li a:hover::after {
 /* Padrão Elementos */
 /* Container */
 .container {
-    max-width: 90vw; /*Não ultrapassará de 90% da tela do dispositivo*/
+    max-width: 80vw; /*Não ultrapassará de 80% da tela do dispositivo*/
     margin: 0 auto;
 }
 /* Backgrounds */
@@ -152,11 +152,32 @@ nav ul li a:hover::after {
     font-size: 1.3em;
     color: #FFFFFFB7;
     font-weight: lighter;
-    margin: 18px 0;
+    margin: 2em 0;
 }
 
-.banner .banner-text a {
+/* .banner .banner-text a {
     font-size: 1.3em;
+} */
+
+/* SECTION ABRIR CHAMADO */
+.abrir-chamado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abrir-chamado .container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.abrir-chamado .container div p {
+    width: 50%;
+}
+
+.abrir-chamado .container div a {
+    margin-left: 1em;
 }
 
 /*SECTION FAÇA MAIS*/
