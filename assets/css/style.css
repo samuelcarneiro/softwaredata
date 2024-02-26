@@ -22,6 +22,7 @@ h2 {
     font-size: 2em;
     text-align: center;
     margin-bottom: 1em;
+    color: #0000009C;
 }
 
 h3 {
@@ -51,7 +52,7 @@ nav ul {
 
 nav ul li a {
     font-size: 1em;
-    color: #000;
+    color: #0000009C;
     display: block;
     padding: 5px 10px;
     text-transform: uppercase;
@@ -83,15 +84,11 @@ span {
     display: none;
 }
 
-.background-header-home {
-    background-image: url('../img/background-home.jpg');
-}
-
 /* Padrão Elementos */
 /* Container */
 .container {
-    border: 1px solid black;
-    max-width: 60vw; /*Não ultrapassará de 60% da tela do dispositivo*/
+    /* border: 1px solid black; */
+    max-width: 65vw; /*Não ultrapassará de 60% da tela do dispositivo*/
     margin: 0 auto;
 }
 /* Backgrounds */
@@ -102,10 +99,11 @@ span {
 }
 /* Botões */
 .btn {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #FFF;
-    background-color: #4F9CF9;
+    background-color: #006DC5;
     padding: 10px 20px;
+    margin-left: 1em;
     border-radius: 10px;
     cursor: pointer;
     display: inline-block;
@@ -139,6 +137,10 @@ span {
     padding: 0 1em;
 }
 
+.background-banner-home {
+    background-image: url('../img/background-home.jpg');
+}
+
 .banner .banner-text {
     /* margin: 150px; Espaçamento fora do conteúdo do texto do banner */
     text-align: center;
@@ -161,7 +163,7 @@ span {
 /*SECTION CONHEÇA NOSSAS SOLUÇÕES */
 .nossas-solucoes .container {
     text-align: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .nossas-solucoes p {
@@ -172,12 +174,10 @@ span {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 
 .nossas-solucoes ul li {
-    display: flex;
-    justify-content: center;
     width: 30%;
     border-radius: 1em;
     padding: 0;
@@ -187,7 +187,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #3580DB;
+    color: #006DC5;
     font-size: 1.4em;
     padding: .5em;
     border-radius: 1em;
@@ -201,70 +201,58 @@ span {
 }
 
 .nossas-solucoes ul li a h3 {
-    margin-left: .5em;
+    width: 60%;
 }
 
-/* SECTION DEPOIMENTOS */
-.depoimentos .container p {
-    font-size: 18px;
+.nossas-solucoes ul li a img {
+    width: 30%;
+}
+
+/* SECTION CASES DE SUCESSO */
+.cases .container p {
     text-align: center;
-    margin-bottom: 20px;
+    font-size: 1.3em;
+    margin-bottom: 1em;
 }
 
-.depoimentos .cards {
+.cases {
+    background-color: #aaa;
+}
+
+.cases .cards {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.depoimentos .card {
-    background-color: #D3E6FD;
-    margin: 15px;
-    border-radius: 15px;
-    text-align: center;
-    width: 350px;
-    transition: .3s;
+.cases .cards .card {
+    width: 35%;
+    padding: 1em;
+    margin: .5em .5em;
+    background-color: #FFF;
+    border-radius: 1em;
 }
 
-.depoimentos .card img {
-    border-radius: 50%;
-    width: 100px;
-    margin: 10px auto;
+.cases .cards .card .title-card {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #006DC5;
+}
+
+.cases .cards .card .info-card {
+    font-size: 1em;
+    text-align: left;
+}
+
+.cases .cards .card a {
     display: block;
+    text-align: end;
+    font-size: 1.1em;
+    color: #006DC5;
 }
 
-.depoimentos .card .user-name {
-    font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.depoimentos .card .user-depoimento {
-    font-size: 15px;
-    padding: 0 15px;
-}
-
-.depoimentos .card .estrelas {
-    margin: 10px 0;
-    padding-top: 5px;
-    border-top: 2px solid #71767A23;
-}
-
-.depoimentos .card .estrelas i {
-    color: #4F9CF9;
-    font-size: 15px;
-    margin-top: 7px;
-}
-
-.depoimentos .card:hover {
-    /*Tempo de transição do :hover está no elemento .card que recebe o hover*/
-    background-color: #3580DB;
-    margin-top: -5px;
-
-    .user-name,
-    .user-depoimento,
-    .estrelas i {
-        color: #FFF;
-    }
+.cases .cards .card p {
+    font-size: 1em;
 }
 
 /* NOSSOS CLIENTES */
