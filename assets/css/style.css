@@ -15,7 +15,7 @@ body {
 }
 
 section {
-    padding: 40px 0;
+    padding: 5em 0;
 }
 
 h2 {
@@ -73,7 +73,7 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-span {
+.destaque {
     text-transform: uppercase;
     color: #006DC5;
 }
@@ -209,51 +209,49 @@ span {
 }
 
 /* SECTION CASES DE SUCESSO */
-.cases .container p {
-    text-align: center;
-    font-size: 1.3em;
-    margin-bottom: 1em;
-}
-
 .cases {
-    background-color: #aaa;
+    background-color: #ccc;
 }
 
-.cases .cards {
+.cases p {
+    text-align: center;
+}
+
+.cards {
+    list-style: none;
     display: flex;
     justify-content: space-between;
+    margin-top: 4em;
 }
 
-.cases .cards .card {
-    width: 35%;
-    padding: 1em;
-    margin: .5em .5em;
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #FFF;
     border-radius: 1em;
+    width: 30%;
+    padding: 1em;
+    box-shadow: 1px 1px 50px #000;
 }
 
-.cases .cards .card .title-card {
-    font-size: 1.3em;
-    font-weight: bold;
-    text-transform: uppercase;
+.cards .card .card-title {
+    font-size: 1.5em;
+    text-align: center;
     color: #006DC5;
 }
 
-.cases .cards .card .info-card {
+.cards .card .card-info p {
     font-size: 1em;
-    text-align: left;
 }
 
-.cases .cards .card a {
+.cards .card .card-link a {
     display: block;
     text-align: end;
-    font-size: 1.1em;
     color: #006DC5;
+    font-weight: 600;
 }
 
-.cases .cards .card p {
-    font-size: 1em;
-}
 
 /* NOSSOS CLIENTES */
 
