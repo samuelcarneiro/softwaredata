@@ -277,11 +277,53 @@ nav ul li a:hover::after {
 /* SECTION LOCALIZACAO */
 .localizacao p {
     text-align: center;
+    margin-bottom: 1.5em;
 }
 
 .localizacao-info {
     display: flex;
     justify-content: space-between;
+}
+
+.localizacao-info .mapa {
+    width: 60%;
+}
+
+.localizacao-info .contato {
+    width: 40%;
+}
+
+.localizacao-info .mapa {
+    border: 3px solid #006DC5;
+    border-radius: 1em 0 0 1em;
+}
+
+.localizacao-info .mapa iframe {
+    border-radius: 1em 0 0 1em;
+    width: 100%;
+}
+
+.localizacao-info .contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #006DC5;
+    border-radius: 0 1em 1em 0;
+}
+
+.localizacao-info .contato div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.localizacao-info .contato i, 
+.localizacao-info .contato p {  
+    color: #FFF;
+}
+
+.localizacao-info .contato i {
+    font-size: 3em;
 }
 
 /*FOOTER*/
