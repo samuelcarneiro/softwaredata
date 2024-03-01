@@ -253,23 +253,7 @@ nav ul li a:hover::after {
 }
 
 /* NOSSOS CLIENTES */
-.nossos-clientes .container p {
-    text-align: center;
-}
 
-.nossos-clientes .container .logo-clientes {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nossos-clientes .container .logo-clientes img:not(.logo-pmfs) {
-    width: 230px;
-}
-
-.logo-pmfs {
-    width: 140px;
-}
 
 /* SECTION LOCALIZACAO */
 .localizacao p {
