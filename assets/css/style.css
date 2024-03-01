@@ -35,6 +35,7 @@ p {
     line-height: 1.5em;
     font-size: 1.3em;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -255,64 +256,91 @@ nav ul li a:hover::after {
 /* NOSSOS CLIENTES */
 
 
-/* SECTION LOCALIZACAO */
-.localizacao p {
+/* SECTION LOCALIZACAO E CONTATO */
+.contato .container p {
     text-align: center;
     margin-bottom: 1.5em;
 }
 
-.localizacao-info {
+.contato .mapa {
+    border-top: 4px solid #006DC5;
+    border-bottom: 4px solid #006DC5;
+}
+
+.contato-info {
     display: flex;
     justify-content: space-between;
+    margin-top: 2em;
 }
 
-.localizacao-info .mapa {
-    width: 60%;
-}
-
-.localizacao-info .contato {
-    width: 40%;
-}
-
-.localizacao-info .mapa {
-    border: 3px solid #006DC5;
-    border-radius: 1em 0 0 1em;
-}
-
-.localizacao-info .mapa iframe {
-    border-radius: 1em 0 0 1em;
-    width: 100%;
-}
-
-.localizacao-info .contato {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.contato-info .left-side {
+    width: 50%;
+    padding: 30px;
     background-color: #006DC5;
-    border-radius: 0 1em 1em 0;
+    border-radius: 1em;
+    margin-right: 50px;
+    height: fit-content;
 }
 
-.localizacao-info .contato div {
+.contato-info .left-side div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.localizacao-info .contato i, 
-.localizacao-info .contato p {  
+.contato-info .left-side div i {
+    color: #FFF;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.contato-info .left-side div p {
+    font-size: 1.3em;
     color: #FFF;
 }
 
-.localizacao-info .contato i {
-    font-size: 3em;
+.contato-info .right-side {
+    width: 50%;
+    text-align: end;
 }
 
-/* SECTION MENSAGEM */
-.mensagem p {
-    text-align: center;
-    margin-bottom: 1.5em;
+.contato-info .right-side label {
+    display: none;
 }
 
+.contato-info .right-side input,
+.contato-info .right-side select,
+.contato-info .right-side textarea {
+    display: block;
+    border: 1px solid #CCC;
+    color: #212121;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.contato-info .right-side textarea {
+    /*Retira a possibilidade de redimencionar o tamanho do textarea com o mouse
+     * (canto inferior direito do textarea) */
+    resize: none;
+}
+
+.contato-info .right-side input:focus,
+.contato-info .right-side textarea:focus {
+    border-color: #4F9BF9;
+    border-width: 2px;
+}
+
+.contato-info .right-side button {
+    border: none;
+    font-size: 1.3em;
+}
+
+.contato-info .right-side .btn {
+    margin-left: 0;
+}
 
 /*FOOTER*/
 footer {
@@ -336,7 +364,24 @@ footer p {
     font-weight: 400;
 }
 
-/*PÁGINA SOBRE*/
+footer .desenvolvedor {
+    font-size: .8em;
+}
+
+footer .desenvolvedor a {
+    color: #FFF;
+    font-weight: bold;
+    padding: .2em;
+    transition: .3s;
+}
+
+footer .desenvolvedor a:hover {
+    color: #000;
+    background-color: #FFF;
+    border-radius: .5em;
+}
+
+/*PÁGINA SOBRE *
 .background-header-sobre {
     background-image: url('../img/background-sobre1.jpg');
 }
@@ -362,7 +407,7 @@ footer p {
 }
 
 .sobre .sobre-img img {
-    width: 100%; /*Ocupa 100% dos 50% ocupados pela DIV pai*/
+    width: 100%; /*Ocupa 100% dos 50% ocupados pela DIV pai
     border-radius: 15px;
 }
 
@@ -370,9 +415,9 @@ footer p {
     margin-top: 18px;
     font-size: 1.3em;
 }
-/* ./PÁGINA SOBRE*/
+ ./PÁGINA SOBRE
 
-/*PÁGINA SERVIÇOS*/
+/*PÁGINA SERVIÇOS
 .background-header-servicos {
     background-image: url('../img/background-servicos.jpg');
 }
@@ -449,13 +494,9 @@ footer p {
     font-size: 1.5em;
 }
 
-/*PÁGINA CONTATO*/
+/*PÁGINA CONTATO
 .background-header-contato {
     background-image: url('../img/background-contacto.jpg');
-}
-
-.contato .container .mapa iframe {
-    border-radius: 15px;
 }
 
 .contato-info {
@@ -510,7 +551,7 @@ footer p {
 
 .contato-info .right-side textarea {
     /*Retira a possibilidade de redimencionar o tamanho do textarea com o mouse
-     * (canto inferior direito do textarea) */
+     * (canto inferior direito do textarea) 
     resize: none;
 }
 

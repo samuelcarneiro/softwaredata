@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- ./Font Awesome -->
     <link rel="stylesheet" href="./assets/css/style.css"/>
-    <link rel="stylesheet" href="./assets/css/media-querys.css"/>
+    <!-- <link rel="stylesheet" href="./assets/css/media-querys.css"/> -->
 
     <title>SoftwareDATA - Soluções para Informática</title>
 </head>
@@ -158,6 +158,7 @@
         <div class="container">
             <h2>Nossos <span class="destaque">Clientes</span></h2>
             <p>Prestamos serviços a todo tipo de empresa ou projeto, aqui está alguns dos nossos clientes.</p>
+
             <div class="logo-clientes">
                 <img src="./assets/img/brasao-feira-de-santana.jpg" alt="Logo Prefeitura de Feira de Santana - BA" title="Prefeitura de Feira de Santana" class="logo-pmfs"/>
                 <img src="./assets/img/senar-bahia.png" alt="Logo Senar" title="SENAR - BA"/>
@@ -168,36 +169,68 @@
     </section>
     <!-- ./nossos-clientes -->
 
-    <section class="localizacao">
+    <section class="contato">
         <div class="container">
-            <h2>Nossa <span class="destaque">localização</span></h2>
+            <h2>Nossa <span class="destaque">localização</span> & <span class="destaque">Contato</span></h2>
             <p>Será um prazer recebermos sua visita para conhecer nossas soluções.<br/> Teremos prazer em atendê-lo.</p>
-            
-            <div class="localizacao-info">
-                <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.677674450707!2d-38.94933476170431!3d-12.258915908206102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7143795fde449e1%3A0x74d66a8a296c055b!2sSoftwaredata%20Solu%C3%A7%C3%B5es%20para%20Inform%C3%A1tica%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1709042026820!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
 
-                <div class="contato">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.677674450707!2d-38.94933476170431!3d-12.258915908206102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7143795fde449e1%3A0x74d66a8a296c055b!2sSoftwaredata%20Solu%C3%A7%C3%B5es%20para%20Inform%C3%A1tica%20Ltda!5e0!3m2!1spt-BR!2sbr!4v1709042026820!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- ./mapa -->
+            <div class="contato-info">
+                <div class="left-side">
                     <div>
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <p>
-                            Rua Felinto Marques de Cerqueira, nº 410<br/>
+                        <i class="fa fa-map-marker"></i>
+                        <p>Rua Felinto Marques de Cerqueira, nº 410<br/>
                             Capuchinhos - Feira de Santana - Bahia<br/>
-                            CEP: 44.076-040
-                        </p>
+                            CEP: 44.076-040</p>
                     </div>
-
                     <div>
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p>(75) 3623-5617</p>
-                    </div>
-
-                    <div>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <i class="fa fa-envelope"></i>
                         <p>faleconosco@softwaredata.com.br</p>
                     </div>
-                </div>    
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>(75) 3623-5617</p>
+                    </div>
+                </div>
+                <!-- ./left-side -->
+                <div class="right-side">
+                    <form action="#">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name" placeholder="Nome" required />
+
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required />
+
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="7X 00000-0000 somente numeros" required />
+
+                        <label for="assunto">Assunto</label>
+                        <select name="assunto" id="assunto" required >
+                            <option value="selecione-o-assunto">Selecione o assunto...</option>   
+                            <option value="faca-nos-uma-visita">Faça-nos uma visita...</option>
+                            <option value="sistema">Sistema</option>
+                            <option value="suporte">Suporte</option>
+                            <option value="manutencao-equipamento-ti">Manutenção de Equipamento de T.I.</option>
+                            <option value="manutencao-site">Manutenção de Site</option>
+                            <option value="manutencao-sistema">Manutenção de Sistema</option>
+                            <option value="duvidas">Dúvidas</option>
+                            <option value="sugestoes">Sugestões</option>
+                            <option value="criticas">Criticas</option>
+                            <option value="elogios">Elogios</option>
+                            <option value="outro">Outro</option>
+                        </select>
+
+                        <label for="mensagem">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+                        <button type="submit" class="btn btn-form">Enviar Mensagem</button>
+                        <div class="g-recaptcha" data-sitekey="6Lec_hUUAAAAAPdTv8MbILLmhnZaf0MMGd-ilZG9"></div>
+                    </form>
+                </div>
+                <!-- ./right-side -->
             </div>
         </div>
         <!-- ./container -->
@@ -222,8 +255,10 @@
     -->
 
     <footer>
-        <p>Todos os direitos reservados - 2024</p>
-        <p>Desenvolvido por Samuel Carneiro - 2024</p>
+        <p>© 2002-2024 - Todos os direitos reservados.</p>
+        <p class="desenvolvedor">
+            Desenvolvido por <a href="https://github.com/samuelcarneiro" target="_blank">Samuel Carneiro</a> - 2024
+        </p>
     </footer>
 
     <script src="./assets/js/main.js"></script>
