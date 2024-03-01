@@ -233,7 +233,11 @@ nav ul li a:hover::after {
     border-radius: 1em;
     width: 30%;
     padding: 1em;
-    box-shadow: 1px 1px 50px #000;
+    scale: 1;
+}
+
+.cards .card:hover {
+    scale: 1.1;
 }
 
 .cards .card .card-title {
