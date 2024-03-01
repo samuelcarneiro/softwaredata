@@ -89,7 +89,7 @@ nav ul li a:hover::after {
 /* Container */
 .container {
     /* border: 1px solid black; */
-    max-width: 65vw; /*Não ultrapassará de 60% da tela do dispositivo*/
+    max-width: 70vw; /*Não ultrapassará de 65% da tela do dispositivo*/
     margin: 0 auto;
 }
 /* Backgrounds */
@@ -346,7 +346,7 @@ nav ul li a:hover::after {
 
 /*FOOTER*/
 footer {
-    background-color: #4F9CF9;
+    background-color: #006DC5;
     text-align: center;
     padding: 40px;
 }

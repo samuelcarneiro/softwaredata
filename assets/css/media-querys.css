@@ -6,163 +6,54 @@
     }
 
     .container {
-        width: 100%;
+        width: 90%;
     }
 
     nav ul {
         display: none;
     }
-    .mobile-icon-menu {
-        display: block;
+
+    /* Banner */
+    .banner {
+        height: 65vh;
     }
 
-    .mobile-icon-menu button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .mobile-menu ul li {
-        margin: .5rem 0;
-        border-radius: 10px;
-        background-color: #FFFFFF22;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .mobile-menu ul li a {
-        width: 100%;
-        color: #FFF;
-        font-size: 25px;
-        font-weight: bold;
-        text-transform: uppercase;
-        padding: 1rem 0;
-    }
-
-    .open {
-        display: block;
-    }
-
-    /* BANNER */
-    .banner .banner-text h1 {
-        font-size: 3em;
-    }
-
-    .banner .banner-text p {
+    /* Section Nossas Soluções */
+    .nossas-solucoes   p {
         font-size: 1.2em;
+        padding: 0;
     }
 
-    /*SECTION FAÇA MAIS*/
-    .faca-mais .container {
+    .nossas-solucoes ul {
         flex-direction: column;
     }
 
-    .faca-mais .faca-mais-text,
-    .faca-mais .faca-mais-img {
-        width: 100%;
-    }
-
-    .faca-mais .faca-mais-text {
-        text-align: center;
-        padding: 0 20px;
-    }
-
-    .faca-mais .faca-mais-text h3 {
-        margin-bottom: .5em;
-    }
-
-    .faca-mais .faca-mais-text a {
-        margin: .5em 0 .7em 0;
-    }
-
-    .faca-mais-invert .container {
-        flex-direction: column-reverse;
-    }
-
-    /*DEPOIMENTOS*/
-    .depoimentos .container .cards {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .depoimentos .container .cards .card {
-        width: 90%;
-    }
-
-    /*NOSSOS CLIENTES*/
-    .nossos-clientes .container .logo-clientes {
-        flex-direction: column;
-    }
-
-    /* PÁGINA SOBRE ############## */
-    .sobre .container {
-        flex-direction: column-reverse;
-    }
-
-    .sobre .sobre-text,
-    .sobre .sobre-img {
-        width: 100%;
-        padding: 0 20px
-    }
-
-    .sobre .sobre-text h2 {
-        margin: 1em 0;
-    }
-
-    .sobre .sobre-text p {
-        text-align: justify;
-    }
-
-    .sobre .sobre-text a {
-        margin-top: 1em;
-        width: 100%;
-        text-align: center;
-    }
-
-    /* PÁGINA SERVIÇOS ############## */
-    .servicos .cards .row-card {
-        margin: .7em 0;
-    }
-
-    /* PÁGINA CONTATO ############## */
-    .contato .contato-info {
-        flex-direction: column;
-    }
-
-    .contato .contato-info .left-side,
-    .contato .contato-info .right-side {
-        width: 100%;
-    }
-
-    .contato .contato-info .left-side {
-        margin-bottom: 2em;
-    }
-
-    .contato-info .left-side div {
-        display: block;
-        text-align: center;
-        margin: 1em 0;
-    }
-
-    .contato-info .left-side div i {
-        font-size: 3em;
-    }
-
-    .contato-info .right-side input,
-    .contato-info .right-side textarea {
-        padding: 1.2em;
-        font-size: 1em;
-    }
-
-    .contato-info .right-side button {
+    .nossas-solucoes ul li {
         width: 100%;
         margin-top: .5em;
     }
-} 
+
+    /* Section Cases de Sucesso */
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards .card {
+        width: 100%;
+        margin-top: 1.5em;
+    }
+
+    /* Section Localização e Contato */
+    .contato-info {
+        flex-direction: column;
+    }
+
+    .contato-info .left-side,
+    .contato-info .right-side {
+        width: 100%;
+    }
+
+    .contato-info .left-side {
+        margin-bottom: 2em;
+    }
+}
