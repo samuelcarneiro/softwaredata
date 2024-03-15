@@ -139,7 +139,7 @@ nav ul li a:hover::after {
     font-size: 2em;
     font-weight: bold;
 }
-  
+
 .dot {
     height: 1em;
     width: 1em;
@@ -161,7 +161,7 @@ nav ul li a:hover::after {
 }
   
 .bg1, .bg2, .bg3 {
-    height: 50vh;
+    height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -171,7 +171,7 @@ nav ul li a:hover::after {
 }
   
 .bg2 {
-    background-image: url('../img/slide-bg2.jpg');
+    background-image: url('../img/slide-bg21.jpg');
 }
   
 .bg3 {
