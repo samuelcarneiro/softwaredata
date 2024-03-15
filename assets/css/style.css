@@ -10,12 +10,8 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
-    background-color: #F1F6FC31;
-}
-
 section {
-    padding: 5em 0;
+    padding: 4.5em 0;
 }
 
 h2 {
@@ -34,6 +30,10 @@ p {
     color: #0000009C;
     line-height: 1.5em;
     font-size: 1.3em;
+}
+
+.logo img {
+    width: 120px;
 }
 
 nav {
@@ -136,7 +136,7 @@ nav ul li a:hover::after {
     height: 100%;
     align-items: center;
     color: #0000009C;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: bold;
 }
   
