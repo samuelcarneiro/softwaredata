@@ -308,6 +308,7 @@ nav ul li a:hover::after {
 
 .cards .card .card-info p {
     font-size: 1em;
+    text-align: left;
 }
 
 .cards .card .card-link a {
