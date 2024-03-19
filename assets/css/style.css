@@ -337,7 +337,7 @@ nav ul li a:hover::after {
 
 .contato-info .left-side {
     width: 50%;
-    padding: 3em;
+    padding: 3em 2em;
     background-color: #006DC5;
     border-radius: 1em;
     margin-right: 3em;
@@ -352,12 +352,12 @@ nav ul li a:hover::after {
 
 .contato-info .left-side div i {
     color: #FFF;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
 }
 
 .contato-info .left-side div p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     color: #FFF;
 }
 
@@ -377,10 +377,11 @@ nav ul li a:hover::after {
     border: 3px solid #CCC;
     color: #212121;
     border-radius: 10px;
-    padding: 10px;
+    padding: 1em;
     width: 100%;
     margin-bottom: 10px;
     transition: .3s;
+    font-size: .7em;
 }
 
 .contato-info .right-side textarea {
@@ -397,7 +398,7 @@ nav ul li a:hover::after {
 
 .contato-info .right-side button {
     border: none;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .contato-info .right-side .btn {
