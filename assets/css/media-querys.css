@@ -13,6 +13,15 @@
         display: none;
     }
 
+    .bg1, .bg2, .bg3 {
+        height: 60vh;
+    }
+
+    .text p {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
     /* Banner */
     .banner {
         height: 65vh;
