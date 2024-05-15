@@ -29,7 +29,7 @@ h3 {
 p {
     color: #0000009C;
     line-height: 1.5em;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .logo img {
@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav ul li a {
-    font-size: 1em;
+    font-size: .9em;
     color: #0000009C;
     display: block;
     padding: 5px 10px;
@@ -100,7 +100,7 @@ nav ul li a:hover::after {
 }
 /* Botões */
 .btn {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #FFF;
     background-color: #006DC5;
     padding: 10px 20px;
@@ -227,7 +227,7 @@ nav ul li a:hover::after {
 }
 
 .nossas-solucoes p {
-    padding: 0 1em;
+    padding: 0 .5em;
 }
 
 .nossas-solucoes ul {
@@ -381,7 +381,15 @@ nav ul li a:hover::after {
     width: 100%;
     margin-bottom: 10px;
     transition: .3s;
-    font-size: .7em;
+    font-size: .8em;
+}
+
+.contato-info .right-side input::placeholder {
+    font-size: 1.1em;
+}
+
+.contato-info .right-side select {
+    font-size: .8em;
 }
 
 .contato-info .right-side textarea {
