@@ -14,6 +14,7 @@ section {
     padding: 4.5em 0;
 }
 
+
 h2 {
     font-size: 2em;
     text-align: center;
@@ -76,6 +77,7 @@ nav ul li a:hover::after {
 
 .destaque {
     text-transform: uppercase;
+    font-weight: bold;
     color: #006DC5;
 }
 
@@ -453,7 +455,7 @@ footer .desenvolvedor a:hover {
     border-radius: .5em;
 }
 
-/*PÁGINA SOBRE *
+/*PÁGINA SOBRE */
 .background-header-sobre {
     background-image: url('../img/background-sobre1.jpg');
 }
@@ -465,29 +467,28 @@ footer .desenvolvedor a:hover {
 }
 
 .sobre .sobre-text {
-    width: 50%;
-    padding-right: 40px;
+    width: 100%;
+    font-size: .9em;
 }
 
 .sobre .sobre-text h2 {
-    text-align: start;
-    margin-bottom: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
 }
 
-.sobre .sobre-img {
-    width: 50%;
-}
-
-.sobre .sobre-img img {
-    width: 100%; /*Ocupa 100% dos 50% ocupados pela DIV pai
-    border-radius: 15px;
+.sobre .sobre-text h3 {
+    margin-top: 2em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #0000009C;
 }
 
 .sobre .sobre-text a {
     margin-top: 18px;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
- ./PÁGINA SOBRE
+ /*./PÁGINA SOBRE */
 
 /*PÁGINA SERVIÇOS
 .background-header-servicos {
