@@ -418,21 +418,18 @@ nav ul li a:hover::after {
 /*FOOTER*/
 footer {
     background-color: #006DC5;
-    text-align: center;
-    padding: 40px;
+    font-size: .9em;
 }
 
-footer i {
-    color: #4F9CF9;
-    font-size: 19px;
-    background-color: #FFF;
-    padding: 10px;
-    margin: 3px;
-    border-radius: 10px;
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFF;
+    padding: 2em 0;
 }
 
 footer p {
-    margin-top: 10px;
     color: #FFF;
     font-weight: 400;
     font-size: 1em;
@@ -440,6 +437,10 @@ footer p {
 
 footer .desenvolvedor {
     font-size: .8em;
+    padding: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .desenvolvedor a {
@@ -453,6 +454,11 @@ footer .desenvolvedor a:hover {
     color: #000;
     background-color: #FFF;
     border-radius: .5em;
+}
+
+footer .icon-dev {
+    width: 1.5em;
+    margin-right: .5em;
 }
 
 /*PÁGINA SOBRE */
