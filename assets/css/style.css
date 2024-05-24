@@ -462,14 +462,17 @@ footer .icon-dev {
 }
 
 /*PÁGINA SOBRE */
-.background-header-sobre {
-    background-image: url('../img/background-sobre1.jpg');
-}
-
 .sobre .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.sobre .container img {
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 3em;
 }
 
 .sobre .sobre-text {
@@ -489,8 +492,8 @@ footer .icon-dev {
     text-transform: uppercase;
     color: #0000009C;
 }
- /*./PÁGINA SOBRE */
 
+/*./PÁGINA SOBRE */
 /*PÁGINA SERVIÇOS
 .background-header-servicos {
     background-image: url('../img/background-servicos.jpg');
