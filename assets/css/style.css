@@ -494,83 +494,10 @@ footer .icon-dev {
 }
 
 /*./PÁGINA SOBRE */
-/*PÁGINA SERVIÇOS
-.background-header-servicos {
-    background-image: url('../img/background-servicos.jpg');
-}
-
-.servicos .container p {
-    text-align: center;
-}
-
-.servicos .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-}
-
-.servicos .row-card {
-    background-color: #D3E6FD;
-    width: 350px;
-    padding: 20px;
-    border-radius: 15px;
-    margin: 20px;
-    transition: .3s;
-}
-
-.servicos .row-card:hover {
-    background-color: #4F9CF9;
-    h3, p {
-        color: #FFF;
-    }
-}
-
-.servicos .row-card img {
-    background-color: #4F9CF9;
-    border-radius: 15px;
-    padding: .5em;
-    margin-bottom: 1em;
-}
-
-.servicos .row-card h3 {
-    font-size: 1.3em;
-    margin-bottom: .5rem;
-}
-
-.servicos .row-card .service-description {
+/*PÁGINA SERVIÇOS */
+.pag-nossas-solucoes .container p {
     text-align: left;
 }
-
-.dados {
-    background-color: #D3E6FD;
-}
-
-.dados .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.dados .dado {
-    text-align: center;
-    margin: 15px;
-    color: #000000BE;
-}
-
-.dados .dado img {
-    background-color: #4F9BF9;
-    border-radius: 15px;
-    padding: 10px;
-    margin-bottom: 15px;
-    width: 80px;
-}
-
-.dados .dado p strong {
-    font-size: 1.5em;
-}
-
 /*PÁGINA CONTATO
 .background-header-contato {
     background-image: url('../img/background-contacto.jpg');
